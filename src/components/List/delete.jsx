@@ -11,7 +11,7 @@ const Delete = ({index}) => {
 
     return(
         <div>
-            <button onClick={handleDelete}>
+            <button style={{margin:'10px'}}onClick={handleDelete}>
                 Delete
             </button>
         </div>

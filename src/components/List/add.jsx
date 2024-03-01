@@ -1,6 +1,7 @@
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addItem, setInputValue } from "../../store/action";
+import { TodoInput } from "../../styles/styles";
 
 const Add = () => {
     const dispatch = useDispatch();
@@ -19,7 +20,7 @@ const Add = () => {
 
     return (
         <div>
-        <input 
+        <TodoInput 
             type="text" 
             value={inputValue} 
             onChange={handleChange}
